@@ -1,11 +1,147 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 4.5.2 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Pacifico&display=swap">
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Mi portafolio - Christian Lampl</title>
 </head>
+
 <body>
-    
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+        <div class="container">
+            <a class="navbar-brand logo-text-navbar" href="#">Cl</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="container-fluid">
+        <h1>Yo soy</h1>
+        <h2>Christian</h2>
+    </section>
+
+    <!-- About section -->
+    <section class="container" id="about">
+        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente voluptatem blanditiis autem ratione error
+            commodi mollitia eius fugit accusamus esse! Suscipit ratione ullam necessitatibus reiciendis.</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui repudiandae, voluptatem similique
+                    obcaecati perferendis iure culpa hic vero eaque ea voluptates! Asperiores vitae alias dolore dolorum
+                    accusantium, nostrum iste.</p>
+            </div>
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui repudiandae, voluptatem similique
+                    obcaecati perferendis iure culpa hic vero eaque ea voluptates! Asperiores vitae alias dolore dolorum
+                    accusantium, nostrum iste.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience section -->
+    <section class="container" id="experience">
+        <h2>Mi experiencia</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Experiencia 1</p>
+            </div>
+            <div class="col-md-6">
+                <p>Experiencia 2</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work section -->
+    <section class="container-fluid" id="work">
+        <h2>Mis últimos trabajos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p>Trabajo 1</p>
+            </div>
+            <div class="col-md-4">
+                <p>Trabajo 2</p>
+            </div>
+            <div class="col-md-4">
+                <p>Trabajo 3</p>
+            </div>
+            <div class="col-md-4">
+                <p>Trabajo 4</p>
+            </div>
+            <div class="col-md-4">
+                <p>Trabajo 5</p>
+            </div>
+            <div class="col-md-4">
+                <p>Trabajo 6</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="container" id="contact">
+        <h2>Contacto</h2>
+        <p>Contact me</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid navbar-dark bg-navbar py-3 my-0 text-center text-white">
+        <div class="row">
+            <div class="col-md-6 text-center footer-col">
+                <p class="logo-text-footer">Christian Lampl</p>
+            </div>
+            <div class="col-md-6 text-center align-middle footer-col">
+                <a href="https://github.com/chrila/"><i class="fab fa-github fa-2x mr-3"></i></a>
+                <a href="https://www.linkedin.com/in/christian-lampl"><i class="fab fa-linkedin fa-2x mr-3"></i></a>
+                <a href="https://www.facebook.com/chlampl"><i class="fab fa-facebook fa-2x mr-3"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQUery 3.5.1 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- Popper JS 1.16.1 -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS 4.5.2 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <!-- My own script -->
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>

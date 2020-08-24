@@ -15,6 +15,10 @@ body {
     font-size: 2.5rem;
 }
 
+.about-text {
+    line-height: 2;
+}
+
 footer a:link {
     color: #ffffff;
     text-decoration: none;
@@ -27,8 +31,4 @@ footer a:visited {
 
 .bg-navbar {
     background-color: #b70000;
-}
-
-.footer-col {
-    height: 100%;
 }

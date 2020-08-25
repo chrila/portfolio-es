@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
     <!-- Bootstrap 4.5.2 CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -48,15 +50,16 @@
     </nav>
 
     <!-- Hero section -->
-    <section class="container-fluid  text-center">
-        <p><span class="display-2 mt-5">YO SOY</span></p>
-        <p><span class="display-3 mb-5 pt-2 border-top border-dark font-weight-bold">CHRISTIAN</span></p>
+    <section class="container-fluid text-center hero-section">
+        <p class="hero-name-top-text display-2">YO SOY</p>
+        <p class="hero-name-text font-weight-bold display-3">CHRISTIAN</p>
     </section>
 
     <!-- About section -->
-    <section class="container" id="about">
-        <h3 class="text-center mt-3 mb-3">Lapiente voluptatem blanditiis autem ratione error commodi mollitia eius fugit
+    <section class="container mt-5" id="about">
+        <h3 class="text-center mb-3">Lapiente voluptatem blanditiis autem ratione error commodi mollitia eius fugit
             accusamus esse!</h3>
+        <div class="vertical-line"></div>
         <div class="row about-text">
             <div class="col-md-6">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui repudiandae, voluptatem similique
@@ -72,21 +75,27 @@
     </section>
 
     <!-- Experience section -->
-    <section class="container text-center" id="experience">
-        <h2 class="font-weight-bold mt-3 mb-3">Mi experiencia</h2>
+    <section class="container text-center mt-5 mb-3" id="experience">
+        <h2 class="font-weight-bold">Mi experiencia</h2>
+        <div class="vertical-line"></div>
         <div class="row">
             <div class="col-md-6">
-                <p>Experiencia 1</p>
+                <p class="experience-icon"><i class="fab fa-java fa-5x"></i></p>
+                <p class="experience-title">Java developer</p>
+                <p class="experience-year">2012-2015</p>
             </div>
             <div class="col-md-6">
-                <p>Experiencia 2</p>
+                <p class="experience-icon"><i class="fas fa-database fa-5x"></i></p>
+                <p class="experience-title">Oracle PL/SQL developer</p>
+                <p class="experience-year">2015-2020</p>
             </div>
         </div>
     </section>
 
     <!-- Work section -->
-    <section class="container-fluid text-center" id="work">
-        <h2 class="font-weight-bold mt-3 mb-3">Mis últimos trabajos</h2>
+    <section class="container-fluid text-center mt-5 mb-3" id="work">
+        <h2 class="font-weight-bold">Mis últimos trabajos</h2>
+        <div class="vertical-line"></div>
         <div class="row">
             <div class="col-md-4">
                 <p>Trabajo 1</p>
@@ -110,13 +119,14 @@
     </section>
 
     <!-- Contact section -->
-    <section class="container text-center" id="contact">
-        <h2 class="font-weight-bold mt-3 mb-3">Contacto</h2>
+    <section class="container text-center mt-5 mb-3" id="contact">
+        <h2 class="font-weight-bold">Contacto</h2>
+        <div class="vertical-line"></div>
         <p>Contact me</p>
     </section>
 
     <!-- Footer -->
-    <footer class="container-fluid navbar-dark bg-navbar py-3 my-0 text-center text-white">
+    <footer class="container-fluid navbar-dark bg-navbar py-3 mt-5 text-center text-white">
         <div class="row">
             <div class="col-md-6 text-center">
                 <p class="logo-text-footer">Christian Lampl</p>

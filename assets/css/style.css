@@ -15,8 +15,53 @@ body {
     font-size: 2.5rem;
 }
 
+.hero-section {
+    padding-top: 2rem;
+    padding-bottom: 15rem;
+    background-image: url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-name-top-text {
+    padding-top: 6rem;
+}
+
+.hero-name-text {
+    padding-top: 25rem;
+    color: #ffffff;
+    overflow-wrap: break-word;
+    letter-spacing: 5px;
+}
+
+.vertical-line {
+    width: 20%;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-top: 2px;
+    border-top-color: #000000;
+    border-top-style: solid;
+}
+
 .about-text {
     line-height: 2;
+}
+
+.experience-icon {
+    font-size: 2em;
+}
+
+.experience-title {
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.experience-year {
+    padding: 0;
+    margin: 0;
 }
 
 footer a:link {

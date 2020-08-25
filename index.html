@@ -22,7 +22,7 @@
 
 <body>
     <!-- Menu -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar fixed-top">
         <div class="container">
             <a class="navbar-brand logo-text-navbar" href="#">Cl</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -56,7 +56,7 @@
     </section>
 
     <!-- About section -->
-    <section class="container mt-5 d-none d-md-block" id="about">
+    <section class="container pt-5 d-none d-md-block" id="about">
         <h3 class="text-center mb-3">Lapiente voluptatem blanditiis autem ratione error commodi mollitia eius fugit
             accusamus esse!</h3>
         <div class="vertical-line"></div>
@@ -64,18 +64,22 @@
             <div class="col-md-6">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui repudiandae, voluptatem similique
                     obcaecati perferendis iure culpa hic vero eaque ea voluptates! Asperiores vitae alias dolore dolorum
-                    accusantium, nostrum iste.</p>
+                    accusantium, nostrum iste. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure velit
+                    veniam praesentium nostrum atque odio debitis id, commodi nisi illo cum, voluptatum laborum
+                    consequatur numquam maxime tenetur. Est, modi expedita!</p>
             </div>
             <div class="col-md-6">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui repudiandae, voluptatem similique
                     obcaecati perferendis iure culpa hic vero eaque ea voluptates! Asperiores vitae alias dolore dolorum
-                    accusantium, nostrum iste.</p>
+                    accusantium, nostrum iste. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quae
+                    quidem vel cupiditate omnis fugit placeat. Nemo reprehenderit dolorum, beatae magni exercitationem
+                    in nihil modi excepturi est, voluptates fugit expedita.</p>
             </div>
         </div>
     </section>
 
     <!-- Experience section -->
-    <section class="container text-center mt-5 mb-3" id="experience">
+    <section class="container text-center py-5" id="experience">
         <h2 class="font-weight-bold">Mi experiencia</h2>
         <div class="vertical-line"></div>
         <div class="row">
@@ -93,14 +97,14 @@
     </section>
 
     <!-- Work section -->
-    <section class="container-fluid text-center mt-5 mb-3" id="work">
-        <h2 class="font-weight-bold">Mis últimos trabajos</h2>
-        <div class="vertical-line"></div>
+    <section class="container-fluid text-center py-5 work-section" id="work">
+        <h2 class="font-weight-bold text-white">Mis últimos trabajos</h2>
+        <div class="vertical-line border-light"></div>
         <div class="container">
             <div class="row text-left">
                 <div class="col-md-4 my-3 px-3">
                     <div class="card">
-                        <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Meet&Coffee">
+                        <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Meet&Coffee" data-toggle="modal" data-target="#modal_MeetCoffee">
                         <div class="card-body">
                             <p class="card-title font-weight-bold">Meet&Coffee</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -109,7 +113,7 @@
                 </div>
                 <div class="col-md-4 my-3 px-3">
                     <div class="card">
-                        <img src="assets/img/iguana_page.png" class="card-img-top" alt="Iguana page">
+                        <img src="assets/img/iguana_page.png" class="card-img-top" alt="Iguana page" data-toggle="modal" data-target="#modal_IguanaPage">
                         <div class="card-body">
                             <p class="card-title font-weight-bold">Iguana page</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -118,7 +122,7 @@
                 </div>
                 <div class="col-md-4 my-3 px-3">
                     <div class="card">
-                        <img src="assets/img/cuppon.png" class="card-img-top" alt="Cuppon">
+                        <img src="assets/img/cuppon.png" class="card-img-top" alt="Cuppon" data-toggle="modal" data-target="#modal_Cuppon">
                         <div class="card-body">
                             <p class="card-title font-weight-bold">Cuppon</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -127,7 +131,7 @@
                 </div>
                 <div class="col-md-4 my-3 px-3">
                     <div class="card">
-                        <img src="assets/img/suricata.png" class="card-img-top" alt="Suricata">
+                        <img src="assets/img/suricata.png" class="card-img-top" alt="Suricata" data-toggle="modal" data-target="#modal_Suricata">
                         <div class="card-body">
                             <p class="card-title font-weight-bold">Suricata</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -136,7 +140,7 @@
                 </div>
                 <div class="col-md-4 my-3 px-3">
                     <div class="card">
-                        <img src="assets/img/ricomida.png" class="card-img-top" alt="Ricomida">
+                        <img src="assets/img/ricomida.png" class="card-img-top" alt="Ricomida" data-toggle="modal" data-target="#modal_Ricomida">
                         <div class="card-body">
                             <p class="card-title font-weight-bold">Ricomida</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -145,7 +149,7 @@
                 </div>
                 <div class="col-md-4 my-3 px-3">
                     <div class="card">
-                        <img src="assets/img/dmark.png" class="card-img-top" alt="DMark">
+                        <img src="assets/img/dmark.png" class="card-img-top" alt="DMark" data-toggle="modal" data-target="#modal_DMark">
                         <div class="card-body">
                             <p class="card-title font-weight-bold">DMark</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -157,25 +161,198 @@
     </section>
 
     <!-- Contact section -->
-    <section class="container text-center mt-5 mb-3" id="contact">
+    <section class="container text-center py-5" id="contact">
         <h2 class="font-weight-bold">Contacto</h2>
         <div class="vertical-line"></div>
         <p>Contact me</p>
     </section>
 
     <!-- Footer -->
-    <footer class="container-fluid navbar-dark bg-navbar py-3 mt-5 text-center text-white">
+    <footer class="container-fluid navbar-dark bg-navbar py-3 text-center text-white">
         <div class="row">
             <div class="col-md-6 text-center">
                 <p class="logo-text-footer">Christian Lampl</p>
             </div>
             <div class="col-md-6 text-center mt-3">
-                <a href="https://github.com/chrila/"><i class="fab fa-github fa-2x mr-3"></i></a>
-                <a href="https://www.linkedin.com/in/christian-lampl"><i class="fab fa-linkedin fa-2x mr-3"></i></a>
-                <a href="https://www.facebook.com/chlampl"><i class="fab fa-facebook fa-2x mr-3"></i></a>
+                <a href="https://github.com/chrila/" target="_blank"><i class="fab fa-github fa-2x mr-4"
+                        data-toggle="tooltip" data-placement="bottom" title="Github"></i></a>
+                <a href="https://www.linkedin.com/in/christian-lampl" target="_blank"><i
+                        class="fab fa-linkedin fa-2x mr-4" data-toggle="tooltip" data-placement="bottom"
+                        title="LinkedIn"></i></a>
+                <a href="https://www.facebook.com/chlampl" target="_blank"><i class="fab fa-facebook fa-2x"
+                        data-toggle="tooltip" data-placement="bottom" title="Facebook"></i></a>
             </div>
         </div>
     </footer>
+
+    <!-- Modals -->
+    <div class="modal fade" id="modal_MeetCoffee" tabindex="-1" aria-labelledby="modal_MeetCoffeeLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal_MeetCoffeeLabel">Meet&Coffee</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/meet_coffee.png" class="img-fluid py-3" alt="Meet&Coffee">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_IguanaPage" tabindex="-1" aria-labelledby="modal_IguanaPageLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal_IguanaPageLabel">Iguana Page</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/iguana_page.png" class="img-fluid py-3" alt="Iguana Page">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_Cuppon" tabindex="-1" aria-labelledby="modal_CupponLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal_CupponLabel">Cuppon</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/cuppon.png" class="img-fluid py-3" alt="Cuppon">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_Suricata" tabindex="-1" aria-labelledby="modal_SuricataLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal_SuricataLabel">Suricata</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/suricata.png" class="img-fluid py-3" alt="Suricata">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_Ricomida" tabindex="-1" aria-labelledby="modal_RicomidaLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal_RicomidaLabel">Ricomida</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/ricomida.png" class="img-fluid py-3" alt="Ricomida">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_DMark" tabindex="-1" aria-labelledby="modal_DMarkLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal_DMarkLabel">DMark</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/dmark.png" class="img-fluid py-3" alt="DMark">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro vel cumque magni hic
+                        delectus. Esse sint sit fugiat, asperiores quo eos repudiandae deserunt incidunt totam eveniet
+                        amet, voluptatibus dignissimos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQUery 3.5.1 -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"

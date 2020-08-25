@@ -1,13 +1,12 @@
 $(function () {
-    // enable popovers
-    $('[data-toggle="popover"]').popover()
+    // enable tooltips
+    $('[data-toggle="tooltip"]').tooltip()
 
     // smooth scrolling when clicking a link
     $("a").click(function (event) {
-
+        
         // if reference is not empty
-        // no scrolling when clicking a link in the carousel
-        if (this.hash != "" && this.hash != "#blogCarousel") {
+        if (this.hash != "") {
 
             // prevent default handling
             event.preventDefault();

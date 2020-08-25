@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
 .logo-text-navbar {
     font-family: 'Pacifico', cursive;
     font-size: 3.5rem;
@@ -25,7 +29,7 @@ body {
 }
 
 .hero-name-top-text {
-    padding-top: 6rem;
+    padding-top: 9rem;
 }
 
 .hero-name-text {
@@ -62,6 +66,14 @@ body {
 .experience-year {
     padding: 0;
     margin: 0;
+}
+
+.work-section {
+    background-color: #b70000;
+}
+
+.card-img-top {
+    cursor: pointer;
 }
 
 footer a:link {

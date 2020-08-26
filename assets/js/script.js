@@ -4,12 +4,12 @@ $(function () {
 
     // smooth scrolling when clicking a link
     $("a").click(function (event) {
-        
+
         // if reference is not empty
         if (this.hash != "") {
 
             // prevent default handling
-            event.preventDefault();
+            //event.preventDefault();
 
             // remember where the link points
             var a = this.hash;

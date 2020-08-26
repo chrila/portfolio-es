@@ -43,6 +43,7 @@ h2 a {
     color: #ffffff;
     overflow-wrap: break-word;
     letter-spacing: 5px;
+    text-shadow: 0.125em 0.125em 0.125em #000000;
 }
 
 .vertical-line {

@@ -62,15 +62,18 @@ h2 a {
 
 .experience-icon {
     font-size: 2em;
+    cursor: pointer;
 }
 
 .experience-title {
+    font-size: 1.5em;
     font-weight: bold;
     padding: 0;
     margin: 0;
 }
 
 .experience-year {
+    font-size: 1.5em;
     padding: 0;
     margin: 0;
 }
@@ -83,16 +86,21 @@ h2 a {
     cursor: pointer;
 }
 
-footer a:link {
-    color: #ffffff;
-    text-decoration: none;
-}
-
 footer a:visited {
     color: #ffffff;
     text-decoration: none;
 }
 
+footer a:hover {
+    color: #dbdbdb;
+    text-decoration: none;
+}
+
 .bg-navbar {
     background-color: #b70000;
+}
+
+.modal-title {
+    font-weight: bold;
+    font-size: 2em;
 }

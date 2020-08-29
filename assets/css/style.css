@@ -3,6 +3,7 @@ body {
     font-weight: 400;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 h2 {
@@ -10,8 +11,8 @@ h2 {
     position: relative;
 }
 
-h2 a {
-    position: absolute;
+.heading-anchor {
+    position: relative;
     top: -8rem;
 }
 
